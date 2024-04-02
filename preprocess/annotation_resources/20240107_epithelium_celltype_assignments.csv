@@ -1,0 +1,15 @@
+﻿cluster,lineage,celltype
+0,Epithelium,AT2
+1,Epithelium,AT1
+2,Epithelium,AT2
+3,Epithelium,Ciliated
+4,Epithelium,Krt5
+5,Epithelium,Secretory
+6,Epithelium,AT2
+7,Other,Count_low
+8,Epithelium,AT1_AT2
+9,Other,Count_low
+10,Other,Doublet_high
+11,Epithelium,Alveolar_transitional
+12,Epithelium,Ciliated
+13,Other,Count_high
