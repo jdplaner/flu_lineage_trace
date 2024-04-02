@@ -1,0 +1,14 @@
+﻿cluster,lineage,celltype,subtype
+0,Endothelium,CAP1,CAP1_a
+1,Endothelium,iCAP,iCAP_a
+2,Endothelium,CAP1,CAP1_b
+3,Other,Count_high,Count_high
+4,Endothelium,CAP2,CAP2
+5,Endothelium,iCAP,iCAP_b
+6,Other,Count_low,Count_low
+7,Other,Count_low,Count_low
+8,Endothelium,iCAP,iCAP_c
+9,Other,Count_low,Count_low
+10,Endothelium,CAP1,CAP1_d
+11,Other,Count_low,Count_low
+12,Endothelium,CAP1,CAP1_c

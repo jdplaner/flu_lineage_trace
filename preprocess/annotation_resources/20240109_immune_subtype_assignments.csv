@@ -1,0 +1,17 @@
+﻿cluster,lineage,celltype,subtype
+0,Myeloid,aMAC,aMAC_a
+1,Myeloid,aMAC,aMAC_b
+2,Myeloid,Neutrophil,Neutrophil_a
+3,Myeloid,cMON,cMON
+4,Myeloid,iMAC,iMAC
+5,Myeloid,pMON,pMON
+6,Myeloid,iMON,iMON_a
+7,Myeloid,iMON,iMON_b
+8,Myeloid,cDC2,cDC2
+9,Myeloid,cDC1,cDC1
+10,Myeloid,aMAC,aMAC_proliferating
+11,Myeloid,maDC,maDC
+12,Myeloid,Neutrophil,Neutrophil_b
+13,Myeloid,cDC_proliferating,cDC_proliferating
+14,Myeloid,Neutrophil,Neutrophil_c
+15,Myeloid,pDC,pDC
