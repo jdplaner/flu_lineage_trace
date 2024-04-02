@@ -1,0 +1,17 @@
+﻿lineage,lineage_color,celltype,celltype_color,subtype,subtype_color
+Myeloid,#FDC151,aMAC,#E76154,aMAC_a,hotpink
+Myeloid,#FDC151,aMAC,#E76154,aMAC_b,royalblue3
+Myeloid,#FDC151,aMAC,#E76154,aMAC_proliferating,grey60
+Myeloid,#FDC151,iMAC,#ED8946,iMAC,#ED8946
+Myeloid,#FDC151,iMON,#FFD06E,iMON_a,#FFD06E
+Myeloid,#FDC151,iMON,#FFD06E,iMON_b,#FFD06E
+Myeloid,#FDC151,cMON,#75884b,cMON,#75884b
+Myeloid,#FDC151,pMON,#B75347,pMON,#B75347
+Myeloid,#FDC151,cDC1,#AADCDF,cDC1,#AADCDF
+Myeloid,#FDC151,cDC2,#1E466D,cDC2,#1E466D
+Myeloid,#FDC151,maDC,#FFE6B6,maDC,#FFE6B6
+Myeloid,#FDC151,cDC_proliferating,purple4,cDC_proliferating,goldenrod
+Myeloid,#FDC151,Neutrophil,#71BBD4,Neutrophil_a,#71BBD4
+Myeloid,#FDC151,Neutrophil,#71BBD4,Neutrophil_b,#71BBD4
+Myeloid,#FDC151,Neutrophil,#71BBD4,Neutrophil_c,#71BBD4
+Myeloid,#FDC151,pDC,#366894,pDC,#366894
