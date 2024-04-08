@@ -197,7 +197,7 @@ ggplot(scrna_even@meta.data, aes(x = mean_pst, y = sac_day, fill = subtype, heig
 
 
 # plot variable genes and modules ~ pseudotime -------------------------------------
-marker_gene_data<-as.data.frame(cbind(scrna@meta.data, t(scrna[['RNA']]$scale.data[c("Igfbp2","Gpm6a","Nnat","Ager","Agrn","Hspg2"),])))
+marker_gene_data<-as.data.frame(cbind(scrna@meta.data, t(scrna[['RNA']]$data[c("Igfbp2","Gpm6a","Nnat","Ager","Agrn","Hspg2"),])))
 
 data_main<-marker_gene_data %>% filter(subtype %in% c("AT1_a","AT1_b","AT1_c","Alveolar_transitional","AT1_AT2","AT2_a","AT2_b","AT2_c","AT2_d"))
 
