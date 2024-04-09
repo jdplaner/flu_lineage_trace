@@ -21,7 +21,7 @@ library(viridis)
 library(ComplexHeatmap)
 
 # wd, seed, date
-setwd("~/Morrisey Lab Dropbox/Morrisey Lab/Joe Planer/Collaborations/TKN/TKN_Ki67/scRNAseq/20240105/")
+# setwd([redacted])
 set.seed(42)
 date<-paste(format(Sys.Date(), format = "%Y%m%d"))
 
