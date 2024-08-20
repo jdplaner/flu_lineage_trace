@@ -69,7 +69,7 @@ iCAP_shared_df$iCAP2_fc<-as.numeric(iCAP_shared_df$iCAP2_fc)
 iCAP_shared_df_filtered<-iCAP_shared_df %>% 
   mutate(avg_fc = rowMeans(.)) %>% 
   rownames_to_column("gene") %>%
-  filter(str_detect(gene, "Rps|Rpl", negate = T)) %>% # removes ribosomal proteins
+  filter(str_detect(gene, "Rps|Rpl", negate = T)) %>% # removes ribosomal genes
   arrange(desc(avg_fc))
 
 # GO enrichment analysis
