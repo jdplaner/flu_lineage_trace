@@ -2,6 +2,9 @@
 # 20240819
 # Joe Planer
 
+# working directory and other addresses with potentially identifiable information have been redacted
+# as they would not be useful in reproducing analyses
+
 # dependencies, date, seed, wd --------------------------------------------
 
 # dependencies
@@ -16,7 +19,7 @@ require(DOSE)
 # date, seed, wd
 date<-paste(format(Sys.Date(), format = "%Y%m%d"))
 set.seed(42)
-setwd("~/Morrisey Lab Dropbox/Morrisey Lab/Joe Planer/Collaborations/TKN/TKN_Ki67/scRNAseq/20240105/")
+#setwd([redacted])
 
 # read in color scheme, data, scale, and downsample per identity class --------------------------
 # colors
