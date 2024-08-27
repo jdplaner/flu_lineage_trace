@@ -2,6 +2,9 @@
 # 20240213
 # Joe Planer
 
+# working directory and other addresses with potentially identifiable information have been redacted
+# as they would not be useful in reproducing analyses
+
 # dependencies, wd, date --------------------------------------------------
 
 # dependencies
@@ -12,7 +15,7 @@ library(ggbeeswarm)
 library(raster)
 
 # wd, seed, date
-setwd("~/Morrisey Lab Dropbox/Morrisey Lab/Joe Planer/Collaborations/TKN/TKN_Ki67/scRNAseq/20240105//")
+#setwd(redacted)
 date<-paste(format(Sys.Date(), format = "%Y%m%d"))
 
 # import objects and preprocess -------------------------------------------
@@ -96,21 +99,21 @@ ggplot() +
   rasterize(geom_point(data = capillary_endothelium_identified@meta.data %>% filter(cre == "car4", trace_call == "Traced"), aes(x = umap_1, y = umap_2), colour = "darkgreen", size = 2.5), dpi = 300) + 
   coord_equal() +
   theme_void()
-ggsave("figures/Figure5/20240213_car4_endothelial_trace_dimplot.pdf", height = 4, width = 6)
+#ggsave("figures/Figure5/20240213_car4_endothelial_trace_dimplot.pdf", height = 4, width = 6)
 
 ggplot() +
   rasterize(geom_point(data = capillary_endothelium_identified@meta.data, aes(x = umap_1, y = umap_2), colour = "grey80", size=1), dpi = 300) + 
   rasterize(geom_point(data = capillary_endothelium_identified@meta.data %>% filter(cre == "ednrb", trace_call == "Traced"), aes(x = umap_1, y = umap_2), colour = "darkgreen", size = 2.5), dpi = 300) + 
   coord_equal() +
   theme_void()
-ggsave("figures/Figure5/20240213_ednrb_endothelial_trace_dimplot.pdf", height = 4, width = 6)
+#ggsave("figures/Figure5/20240213_ednrb_endothelial_trace_dimplot.pdf", height = 4, width = 6)
 
 ggplot() +
   rasterize(geom_point(data = capillary_endothelium_identified@meta.data, aes(x = umap_1, y = umap_2), colour = "grey80", size=1), dpi = 300) + 
   rasterize(geom_point(data = capillary_endothelium_identified@meta.data %>% filter(cre == "kit", trace_call == "Traced"), aes(x = umap_1, y = umap_2), colour = "darkorange", size = 2.5), dpi = 300) + 
   coord_equal() +
   theme_void()
-ggsave("figures/Figure5/20240213_kit_endothelial_trace_dimplot.pdf", height = 4, width = 6)
+#ggsave("figures/Figure5/20240213_kit_endothelial_trace_dimplot.pdf", height = 4, width = 6)
 
 
 
